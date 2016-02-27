@@ -1,5 +1,5 @@
 sudo: false
 language: node_js
 node_js:
-  - "0.10"
+  - "4"
 script: ./node_modules/mocha/bin/mocha express.test.js
