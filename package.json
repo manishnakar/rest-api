@@ -6,16 +6,16 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "kerberos": "0.0.18",
-    "mongodb": "^2.0.55",
-    "mongoskin": "^2.0.3"
+   // "kerberos": "0.0.18",
+   // "mongodb": "^2.0.55",
+   // "mongoskin": "^2.0.3"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^2.4.5",
     "superagent": "^1.7.2"
   },
-  "main": "app.js",
+  "main": "app.js",  
   "scripts": {
   	"test": "./node_modules/mocha/bin/mocha express.test.js"
 	},
