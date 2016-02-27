@@ -1,3 +1,4 @@
+sudo: false
 language: node_js
 node_js:
   - "4.1"
@@ -10,4 +11,3 @@ node_js:
   - "iojs"
 
   script: express.test.js
-  sudo: false
