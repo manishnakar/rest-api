@@ -1,0 +1,36 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "REST API with Travis-CI",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "kerberos": "0.0.18",
+    "mongodb": "^2.0.55",
+    "mongoskin": "^2.0.3"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5",
+    "superagent": "^1.7.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishnakar/rest-api.git"
+  },
+  "keywords": [
+    "Travis-ci",
+    "mocha",
+    "expressjs"
+  ],
+  "author": "Manish Nakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishnakar/rest-api/issues"
+  },
+  "homepage": "https://github.com/manishnakar/rest-api#readme"
+}
