@@ -10,7 +10,7 @@ describe('express rest api server', function(){
          //console.log(" ---------"+ JSON.stringify(res.body))
          expect(e).to.eql(null)
         expect(typeof res.body).to.eql('object')
-        expect(res.body.status.length).to.eql(2)        
+        expect(res.body.status.length).to.eql(1)        
         expect(res.body._id).to.eql(id)   
         expect(res.body.status).to.eql('1')         
         done()

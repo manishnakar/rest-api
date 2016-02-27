@@ -16,7 +16,7 @@
     "superagent": "^1.7.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha express.test.js"
   },
   "repository": {
     "type": "git",
